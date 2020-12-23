@@ -1,0 +1,14 @@
+
+service: logoutuser
+
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: python3.7
+  profile: cloud
+  region: us-east-1
+
+functions:
+  hello:
+    handler: handler.hello
