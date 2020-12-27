@@ -12,7 +12,7 @@
 
  
 
-![img](file:///C:\Users\82104\AppData\Local\Temp\msohtmlclip1\01\clip_image002.gif)
+![1.png](https://github.com/hellacles/Cloud/blob/master/CloudImg/1.png?raw=true)
 
 그림1. 클라우드 아키텍쳐 구성도
 
@@ -52,19 +52,9 @@ AI의 음성인식 학습 모델을 실행하기 위해서는 tensorflow를 활�
 
 Cognito가 멀티 팩터 인증과 저장 데이터의 암호화를 자동으로 지원해주기 때문에 보다 안전한 인증 기능을 구현할 수 있었고, 자격 증명 공급자 연동을 통해 쉽게 앱의 액세스 제어 기능을 추가할 수 있었다.
 
-![img](file:///C:\Users\82104\AppData\Local\Temp\msohtmlclip1\01\clip_image004.jpg)
+![2.png](https://github.com/hellacles/Cloud/blob/master/CloudImg/2.png?raw=true)
 
 그림2. Cognito User Pool
-
- 
-
- 
-
- 
-
- 
-
- 
 
  
 
@@ -85,7 +75,7 @@ Cognito가 멀티 팩터 인증과 저장 데이터의 암호화를 자동으로
 
 호출된 API 함수에서는 python의 라이브러리인 boto3를 활용하여 저장된 S3 버킷을 참조하여 wav 파일을 가져와 음성 분석을 시작한다.
 
-![img](file:///C:\Users\82104\AppData\Local\Temp\msohtmlclip1\01\clip_image006.jpg)
+![3.png](https://github.com/hellacles/Cloud/blob/master/CloudImg/3.png?raw=true)
 
 그림3. wav파일이 저장되는S3 버킷
 
@@ -97,7 +87,7 @@ Cognito가 멀티 팩터 인증과 저장 데이터의 암호화를 자동으로
 
 2의 경우는 안드로이드 로그인 시에 Amazon RDS를 참조하여 사용자의 위,경도를 기반으로 1km 이내의 신규 주문건을 반환하기 위해 AWS Lambda를 통한 서버리스 통신을 구현하였다.
 
-![img](file:///C:\Users\82104\AppData\Local\Temp\msohtmlclip1\01\clip_image008.jpg)
+![4.png](https://github.com/hellacles/Cloud/blob/master/CloudImg/4.png?raw=true)
 
 그림4. Aws Lambda 함수 리스트
 
@@ -109,11 +99,11 @@ Cognito가 멀티 팩터 인증과 저장 데이터의 암호화를 자동으로
 
 구역 별 예상 주문 건수, 평균 주문 금액, 평균 배달 시간, 위험감지 건수에 대한 지도시각화, 그리고 라이더 평가 정보를 확인할 수 있다.
 
-![img](file:///C:\Users\82104\AppData\Local\Temp\msohtmlclip1\01\clip_image010.jpg)
+![5.png](https://github.com/hellacles/Cloud/blob/master/CloudImg/5.png?raw=true)
 
-![img](file:///C:\Users\82104\AppData\Local\Temp\msohtmlclip1\01\clip_image012.jpg)
+![6.png](https://github.com/hellacles/Cloud/blob/master/CloudImg/6.png?raw=true)
 
-![img](file:///C:\Users\82104\AppData\Local\Temp\msohtmlclip1\01\clip_image014.jpg)
+![7.png](https://github.com/hellacles/Cloud/blob/master/CloudImg/7.png?raw=true)
 
 그림 5,6,7 헬라클레스 관리자 모니터링 페이지
 
@@ -131,7 +121,7 @@ Cognito가 멀티 팩터 인증과 저장 데이터의 암호화를 자동으로
 
  
 
-![img](file:///C:\Users\82104\AppData\Local\Temp\msohtmlclip1\01\clip_image016.gif)
+![8.png](https://github.com/hellacles/Cloud/blob/master/CloudImg/8.png?raw=true)
 
 그림 8. Code PipeLine을 통한 자동 배포
 
@@ -141,7 +131,7 @@ Cognito가 멀티 팩터 인증과 저장 데이터의 암호화를 자동으로
 
 다음으로 가비아에서 실제 도메인을 구입하여 Amazon Route53을 이용해 도메인을 매핑하고 실제 서비스로 배포하였다.
 
-![img](file:///C:\Users\82104\AppData\Local\Temp\msohtmlclip1\01\clip_image018.jpg)
+![9.png](https://github.com/hellacles/Cloud/blob/master/CloudImg/9.png?raw=true)
 
 그림 9. Https 도메인 매핑
 
@@ -151,7 +141,7 @@ Cognito가 멀티 팩터 인증과 저장 데이터의 암호화를 자동으로
 
 실제 작성한 API 리스트는 다음과 같다.
 
-![img](file:///C:\Users\82104\AppData\Local\Temp\msohtmlclip1\01\clip_image020.gif)
+![10.png](https://github.com/hellacles/Cloud/blob/master/CloudImg/10.png?raw=true)
 
 그림 10. 작성 API 명세서
 
